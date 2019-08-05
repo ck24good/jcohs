@@ -1,0 +1,71 @@
+
+html,body,ul,ol,li,form,fieldset,legend {margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,p{margin-top:0;}
+fieldset,img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th,td{text-align:left;vertical-align:top;font-weight:normal;}
+legend{color:#000;}
+input,textarea,select{font-size:110%;line-height:1.1;}
+li{list-style:none;}
+abbr,acronym{border-bottom:.1em dotted;cursor:help;}
+sup{vertical-align: :text-top;}
+sub{vertical-align: text-bottom}
+
+html,body {width: 100%;height: 100%;    background-color: antiquewhite;} 
+body, table, tr, td {	font-family: "Nanum Barun Gothic", sans-serif;	font-size: 9pt;	color: #000;}
+a{color:inherit;text-decoration:none;}
+
+header.jHeader {z-index: 9999;width: 100%;position: fixed;border-bottom: 1px solid transparent;background-color: transparent;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;}
+header.scrolledHeader{	z-index:9999;width:100%;position:fixed;border-bottom:1px solid #ddd;background-color: #fff;} 
+
+.jHeaderDiv {margin: 0 auto;max-width: 1024px;}
+.jHeaderDiv .logo {float: left;cursor: pointer;}
+.jHeaderDiv .mobileToggleMenu{float:right;display:none;padding:20px;color:#000;cursor:pointer;}
+.jHeaderDiv nav.jMenu {float:right;font-size:10pt;font-weight: bold;color:#000;}
+.jHeaderDiv nav.scrolledjMenu {color:#000;}
+.jHeaderDiv nav.jMenu ul li{float:left;padding:20px;}
+
+.jHeaderDiv .mobileToggleMenu{float:right;display:none;padding:8px;color:#000;}
+
+.sub_menu   {display: none;}
+.mobile_arrow {float: right;}
+
+.bg-holder {width: 100%;height:100%;max-height: 750px;}
+.bg-holder2 {width: 100%;min-height: 500px;}
+.bg-holder#pic1 {background-image: url('/images/top_s1.png');}
+.bg-holder2#pic2 {
+	position:relative;
+	background: url('/images/bg_recruit.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.sectionTitle {font-size:28px;text-align:center;font-weight:400;padding:0px 15px;color:#ff0000;}
+.sectionTitle.withSubTitle{margin:0px 0px 10px;}
+.sectionSubTitle {font-size:16px;text-align:center;font-weight:700;color:#555;padding:0px 15px;}
+.sectionContents{font-size:14px;color:#555;text-align: center;line-height:24px;padding:0px 15px;}
+.withBlue{color:#0E89B0;}
+.whiteFont{color:#fff;}
+
+.iconCol3OuterBox{display:table;width:100%;margin:35px auto 0px;text-align:center;}   /**/
+.iconCol3Box{margin:0 auto;width:25%;display:inline-block;padding:10px;text-align:center;color:#777;margin-top:15px;*display:inline;zoom:1;}
+.iconCol3Box i{color:#067dbd;}
+.iconCol3Box .iconTitle{font-size:24px;font-weight:400;margin:20px 0px 5px;color:#000;}
+
+
+/* @media all and (max-width: 767px) { */
+	.mobile_clearboth{clear:both;}
+	.jHeaderDiv nav.jMenu{float:none;display:none;}
+	.jHeaderDiv nav.jMenu ul li {float:none;padding:13px 20px;}
+	.jHeaderDiv .mobileToggleMenu{float:right;display:block;padding:15px;}
+	.iconCol3Box{width:100%;float:none;display:block;box-sizing:border-box;padding:10px;text-align:center;color:#777;}
+
+	.tickerOuterDivLeft{display:none;}
+	.tickerOuterDiv{width:100%;float:none;height:100%;text-align: center;}
+	.tickerOuterDiv ul{width:100%}
+	.contactInfo .iconContainer {width:100%;padding:15px 0px;margin:0 auto;text-align: center;}
+	.contactInfo .iconContainer .leftIcon{float:none;display:inline-block;*display:inline;zoom:1;}
+	.contactInfo .iconContainer .rightTxt{float:none;display:inline-block;*display:inline;zoom:1;}
+/* } */
