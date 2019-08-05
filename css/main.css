@@ -8,7 +8,7 @@ legend{color:#000;}
 input,textarea,select{font-size:110%;line-height:1.1;}
 li{list-style:none;}
 abbr,acronym{border-bottom:.1em dotted;cursor:help;}
-sup{vertical-align: :text-top;}
+sup{vertical-align: text-top;}
 sub{vertical-align: text-bottom}
 
 html,body {width: 100%;height: 100%;    background-color: antiquewhite;} 
@@ -21,9 +21,9 @@ header.scrolledHeader{	z-index:9999;width:100%;position:fixed;border-bottom:1px 
 .jHeaderDiv {margin: 0 auto;max-width: 1024px;}
 .jHeaderDiv .logo {float: left;cursor: pointer;}
 .jHeaderDiv .mobileToggleMenu{float:right;display:none;padding:20px;color:#000;cursor:pointer;}
-.jHeaderDiv nav.jMenu {float:right;font-size:10pt;font-weight: bold;color:#000;}
+/*.jHeaderDiv nav.jMenu {float:right;font-size:10pt;font-weight: bold;color:#000;}*/
 .jHeaderDiv nav.scrolledjMenu {color:#000;}
-.jHeaderDiv nav.jMenu ul li{float:left;padding:20px;}
+/*.jHeaderDiv nav.jMenu ul li{float:left;padding:20px;}*/
 
 .jHeaderDiv .mobileToggleMenu{float:right;display:none;padding:8px;color:#000;}
 
@@ -54,8 +54,16 @@ header.scrolledHeader{	z-index:9999;width:100%;position:fixed;border-bottom:1px 
 .iconCol3Box i{color:#067dbd;}
 .iconCol3Box .iconTitle{font-size:24px;font-weight:400;margin:20px 0px 5px;color:#000;}
 
+.jContentsSection{padding:70px 0px;}
+.mainContents{margin:0 auto;max-width:1024px;}
+.teamIntroduction img {border:1px solid #e4e4e4;margin-bottom:50px;}
 
-/* @media all and (max-width: 767px) { */
+.imageOverlay{position:relative;}	/*display:table;*/
+.overlayTxt{position:absolute;display:table-cell;vertical-align:middle;top:0px;left:0px;background:rgba(0,0,0,0.7);color:#fff;font-size:14px;text-align:center;vertical-align:middle;}	/*display:none;*/
+.bgwhite { background-color: #fff}
+
+
+/*@media all and (max-width: 767px) { */
 	.mobile_clearboth{clear:both;}
 	.jHeaderDiv nav.jMenu{float:none;display:none;}
 	.jHeaderDiv nav.jMenu ul li {float:none;padding:13px 20px;}
@@ -68,4 +76,4 @@ header.scrolledHeader{	z-index:9999;width:100%;position:fixed;border-bottom:1px 
 	.contactInfo .iconContainer {width:100%;padding:15px 0px;margin:0 auto;text-align: center;}
 	.contactInfo .iconContainer .leftIcon{float:none;display:inline-block;*display:inline;zoom:1;}
 	.contactInfo .iconContainer .rightTxt{float:none;display:inline-block;*display:inline;zoom:1;}
-/* } */
+/*} */

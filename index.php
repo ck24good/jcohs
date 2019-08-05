@@ -99,6 +99,102 @@
 			<div style="clear:both;"></div>
 		</div>
         </section>
-    
+
+        <section class="jContentsSection bgwhite">
+		<div class="mainContents">
+			<p class="sectionTitle">ABOUT JCOSH<br /><span class="sectionContents">제이코스는 다양한 서비스를 지원합니다.</span></p>
+			<div class="owl-carousel teamIntroduction">
+			    <div class="item">
+					<div class="imageOverlay">
+						<img src="http://jcohs.com/wp-content/uploads/2017/12/number_1.png" width="100%" />
+						<div class="overlayTxt">
+                            각 기업의 행사에 최적화된 다양한 상품 공급
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="imageOverlay">
+					    <img src="http://jcohs.com/wp-content/uploads/2017/12/number_2.png" width="100%" />
+						<div class="overlayTxt">
+                            당사 JCOHSMALL을 통한 복지몰,폐쇄몰
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="imageOverlay">
+    					<img src="http://jcohs.com/wp-content/uploads/2017/12/number_3.png" width="100%" />
+						<div class="overlayTxt">
+                            기업 특판,판촉,프로모션 제안
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="imageOverlay">
+    					<img src="http://jcohs.com/wp-content/uploads/2017/12/number_4.png" width="100%" />
+						<div class="overlayTxt">
+                            완벽한 물류,CS 서비스 제공
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="imageOverlay">
+    					<img src="http://jcohs.com/wp-content/uploads/2017/12/number_5.png" width="100%" />
+						<div class="overlayTxt">
+                            신상품 기획 및 신규 브랜드 런칭
+						</div>
+					</div>
+			    </div>
+			</div>
+		</div>
+        </section>
+        
+        <section class="jContentsSection">
+		<div class="mainContents">
+			<p class="sectionTitle">BRANDS<br /><span class="sectionContents">제이코스는 브랜드 파워가 뛰어난 국내외 글로벌 기업의 파트너사입니다.</span></p>
+			<div class="owl-carousel teamIntroduction">
+			    <div class="item">
+					<div class="imageOverlay">
+						<img src="http://jcohs.com/wp-content/uploads/2017/12/number_1.png" width="100%" />
+						<div class="overlayTxt">
+                            각 기업의 행사에 최적화된 다양한 상품 공급
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="imageOverlay">
+					    <img src="http://jcohs.com/wp-content/uploads/2017/12/number_2.png" width="100%" />
+						<div class="overlayTxt">
+                            당사 JCOHSMALL을 통한 복지몰,폐쇄몰
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="imageOverlay">
+    					<img src="http://jcohs.com/wp-content/uploads/2017/12/number_3.png" width="100%" />
+						<div class="overlayTxt">
+                            기업 특판,판촉,프로모션 제안
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="imageOverlay">
+    					<img src="http://jcohs.com/wp-content/uploads/2017/12/number_4.png" width="100%" />
+						<div class="overlayTxt">
+                            완벽한 물류,CS 서비스 제공
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="imageOverlay">
+    					<img src="http://jcohs.com/wp-content/uploads/2017/12/number_5.png" width="100%" />
+						<div class="overlayTxt">
+                            신상품 기획 및 신규 브랜드 런칭
+						</div>
+					</div>
+			    </div>
+			</div>
+		</div>
+        </section>
+                
     </body>
 <html>
