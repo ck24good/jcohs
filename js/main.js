@@ -87,7 +87,47 @@ $(document).ready(function(){
 	        }
 	    }
     }); 
-    
+
+    $('.owl-carousel2').owlCarousel({
+	    loop:true,
+	    margin:5,
+	    nav:false,
+	    dots:true,
+	    dotsEach:1,
+		autoplay:true,
+		autoplayTimeout:3500,
+		autoplayHoverPause:true,
+	    navText:["<img src='/images/arrow_left.png' style='border:0px;' />","<img src='/images/arrow_right.png' style='border:0px' />"],
+	    responsive:{
+	        0:{
+	            items:2
+	        },
+	        600:{
+	            items:4
+	        }
+	    }
+    }); 
+
+    $('.owl-carousel3').owlCarousel({
+	    loop:true,
+	    margin:5,
+	    nav:false,
+	    dots:true,
+	    dotsEach:1,
+		autoplay:true,
+		autoplayTimeout:3500,
+		autoplayHoverPause:true,
+	    navText:["<img src='/images/arrow_left.png' style='border:0px;' />","<img src='/images/arrow_right.png' style='border:0px' />"],
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:2
+	        }
+	    }
+    }); 
+/*
     $(document).on("mouseover",".imageOverlay",function(){
 		$(this).children(".overlayTxt").css("display","table-cell");
 		$(this).children(".overlayTxt").css("vertical-align","middle");
@@ -98,7 +138,7 @@ $(document).ready(function(){
 	$(document).on("mouseout",".imageOverlay",function(){
 		$(this).children(".overlayTxt").css("display","none");
 	});
-
+*/
 
 /*
     $('#s1').removeClass().addClass('bounceInRight animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
