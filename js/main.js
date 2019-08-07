@@ -77,7 +77,7 @@ $(document).ready(function(){
 		autoplay:true,
 		autoplayTimeout:3500,
 		autoplayHoverPause:true,
-	    navText:["<img src='/images/arrow_left.png' style='border:0px;' />","<img src='/images/arrow_right.png' style='border:0px' />"],
+	    navText:["<img src='./images/arrow_left.png' style='border:0px;' />","<img src='./images/arrow_right.png' style='border:0px' />"],
 	    responsive:{
 	        0:{
 	            items:1
@@ -97,7 +97,7 @@ $(document).ready(function(){
 		autoplay:true,
 		autoplayTimeout:3500,
 		autoplayHoverPause:true,
-	    navText:["<img src='/images/arrow_left.png' style='border:0px;' />","<img src='/images/arrow_right.png' style='border:0px' />"],
+	    navText:["<img src='./images/arrow_left.png' style='border:0px;' />","<img src='./images/arrow_right.png' style='border:0px' />"],
 	    responsive:{
 	        0:{
 	            items:2
